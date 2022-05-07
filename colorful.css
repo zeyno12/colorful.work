@@ -1,0 +1,120 @@
+body{
+    background-color: bisque;
+}
+nav{
+    width: 90%;
+    padding: 5%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    background-color: deeppink;
+    color: aqua;
+    border-radius: 5px;
+    padding: 3%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 30px 30px;
+    padding: 5%;
+}
+.item-1{
+   border: 1px solid;
+   box-shadow: 5px 7px gray;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 5%;
+   background-color: rgba(0, 255, 255, 0.305);
+}
+.item-2{
+    border: 1px solid;
+    text-align: center;
+    box-shadow: 5px 7px gray;
+    padding: 5%;
+    background-color: rgba(137, 43, 226, 0.337);
+ }
+ .item-3{
+    border: 1px solid;
+    display: flex;
+    box-shadow: 5px 7px gray;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 3%;
+    background-color: rgba(0, 100, 0, 0.39);
+ }
+ .item-4{
+    border: 1px solid;
+    display: flex;
+    box-shadow: 5px 7px gray;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 5%;
+    background-color: rgba(184, 135, 11, 0.358);
+ }
+ .item-5{
+    border: 1px solid;
+    padding: 5%;
+    box-shadow: 5px 7px gray;
+    text-align: center;
+    background-color: rgba(255, 20, 145, 0.332);
+ }
+ .item-6{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 3%;
+    box-shadow: 5px 7px gray;
+    background-color: rgba(172, 255, 47, 0.359);
+ }
+ img{
+     width: 60%;
+ }
+.text-1{
+    width: 40%;
+    color: blue;
+}
+.text-2 b, em{
+    width: 40%;
+    text-align: center;
+    color: rgb(231, 0, 146);
+}
+.text-3{
+    width: 50%;
+    color: chartreuse;
+}
+.image-3{
+    margin-left: 20%;
+}
+.text-4{
+    width: 50%;
+    color: rgb(5, 155, 155);
+}
+.text-5 {
+    width: 100%;
+    text-align: center;
+    color: blueviolet;
+}
+.text-6{
+    width: 70%;
+    color: darkmagenta;
+}
+@media screen and (min-width: 320px) and (max-width: 370px) {
+    
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {}
+@media screen and (min-width: 414px) and (max-width: 768px) {}
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
