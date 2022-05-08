@@ -81,26 +81,26 @@ a:hover{
     background-color: rgba(172, 255, 47, 0.359);
  }
  img{
-     width: 60%;
+     width: 80%;
  }
 .text-1{
-    width: 40%;
+    width: 100%;
     color: blue;
 }
-.text-2 b, em{
-    width: 40%;
+.text-2{
+    width: 100%;
     text-align: center;
     color: rgb(231, 0, 146);
 }
 .text-3{
-    width: 50%;
+    width: 100%;
     color: chartreuse;
 }
 .image-3{
     margin-left: 20%;
 }
 .text-4{
-    width: 50%;
+    width: 100%;
     color: rgb(5, 155, 155);
 }
 .text-5 {
@@ -109,12 +109,81 @@ a:hover{
     color: blueviolet;
 }
 .text-6{
-    width: 70%;
+    width: 100%;
     color: darkmagenta;
 }
 @media screen and (min-width: 320px) and (max-width: 370px) {
+    .grid-container{
+        flex-direction: column;
+        grid-template-columns: 50% 50%;
+        padding: 5%;
+    }
+ul{
+    font-size: small;
+    flex-direction: column;
+    background-color: rgba(238, 130, 238, 0.427);
+}
+.item-3{
+   flex-direction: column;
+}
+.item-6{
+    flex-direction: column;
+}
+li{
+    padding: 5%;
+    margin-right: 10%;
+}
+    [class=".text-"] p, span, b, em {
+    font-size: 10px;
+    width: 50%;
+    border: 1px solid;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .grid-container{
+        flex-direction: column;
+        grid-template-columns: 50% 50%;
+        padding: 5%;
+    }
+    ul{
+        font-size: small;
+        flex-direction: column;
+        background-color: rgba(238, 130, 238, 0.427);
+    }
+    li{
+        padding: 5%;
+        margin-right: 10%;
+    }
+    .item-3 {
+        flex-direction: column;
+    }
+    .item-6 {
+       flex-direction: column;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    ul{
+        font-size: small;
+        flex-direction: column;
+        background-color: rgba(238, 130, 238, 0.427);
+    }
+    li{
+        padding: 5%;
+        margin-right: 10%;
+    }
+    .item-3 {
+        flex-direction: column;
+    }
+    .item-6 {
+       flex-direction: column;
+    }
+    .item-1{
+        flex-direction: column;
+    }
+    .item-4{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {}
-@media screen and (min-width: 414px) and (max-width: 768px) {}
-@media screen and (min-width: 768px) and (max-width: 1024px) {}
